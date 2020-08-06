@@ -15,8 +15,6 @@ import sys
 root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.insert(0, root_path)
 
-import amazon_transcribe
-
 
 # -- Project information -----------------------------------------------------
 
@@ -51,10 +49,6 @@ master_doc = 'index'
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build']
 
-# The short X.Y version.
-version = amazon_transcribe.__version__
-# The full version, including alpha/beta/rc tags.
-release = version
 
 # -- Options for HTML output -------------------------------------------------
 
