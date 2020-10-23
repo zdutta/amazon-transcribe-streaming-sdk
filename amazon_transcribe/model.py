@@ -218,6 +218,7 @@ class StartStreamTranscriptionRequest:
         self.media_encoding: Optional[str] = media_encoding
         self.vocabulary_name: Optional[str] = vocabulary_name
         self.session_id: Optional[str] = session_id
+        self.vocab_filter_name: Optional[str] = vocab_filter_name
         self.vocab_filter_method: Optional[str] = vocab_filter_method
         self.vocab_filter_name: Optional[str] = vocab_filter_name
         self.show_speaker_label: Optional[bool] = show_speaker_label
